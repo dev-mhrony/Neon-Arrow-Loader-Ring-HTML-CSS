@@ -55,3 +55,15 @@ body{
     transform: translateX(-50%);
     clip-path: polygon(0% 0%, 100% 45%, 0% 98%, 24% 49%);
 }
+
+@keyframes tloader{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
