@@ -41,7 +41,7 @@ body{
     height: 100%;
     border-radius: 50%;
     transform: rotate(0deg);
-    animation: 3s loader_arrow linear infinite;
+    animation: 5s loader_arrow linear infinite;
 }
 
 .loader_arrow::before{
@@ -65,5 +65,14 @@ body{
     }
     100%{
         opacity: 0;
+    }
+}
+
+@keyframes loader_arrow{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
     }
 }
